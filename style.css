@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 30px 140px;
+}
+
+.nav-logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-logo a h4 {
+  font-weight: 600;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: fit-content;
+  gap: 61px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 18px;
+}
+
+nav ul li {
+  border-bottom: 3px solid white;
+  padding: 2px 0px;
+}
+
+nav ul li:hover,
+nav ul li.active {
+  border-color: #CCB6AB;
+  transition: all 500ms;
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration-line: none;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  gap: 15px;
+}
+
+.bottle-container {
+  display: flex;
+}
+
+.bottle-logo {
+  width: 40%;
+}
+
+.bottle-logo img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.content {
+  line-height: 1;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-right: 140px;
+}
+
+.content h3 {
+  font-size: 50px;
+}
+
+.content h2 {
+  font-size: 3rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.content h2.brand {
+  color: tomato;
+  font-weight: 500;
+}
+
+.text {
+  text-align: start;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 25px !important;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  width: 25%;
+}
+
+.buy-btn {
+  background-color: #555266;
+  border: none;
+  padding: 15px 50px;
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.border {
+  border: 1px solid;
+}
+
+.heading-sub p {
+  text-transform: uppercase;
+  font-weight: 500;
+  width: fit-content;
+  position: relative;
+}
+
+.heading-sub p::after {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  right: -60px;
+  top: 7px;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.brand-info {
+  display: flex;
+  justify-content: space-between;
+}
+.brand-info h1{
+  color: tomato;
+  font-size: 20px;
+  font-weight: 500;
+}
+.sponsors-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(225, 217, 217, 0.134);
+  margin-top: 27px;
+  padding-left: 73px;
+  padding-right: 70px;
+  height: 74px;
+}
+.products{
+  margin: 64px;
+  text-align: center;
+}
+
+.products h4{
+  font-weight: bold;
+  font-size: 40px;
+  font-family: serif;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 108px;
+  padding-right: 84px;
+  margin: 35px;
+}
+
+.btn button{
+    display: block;
+    background-color: #555266;
+    border: none;
+    padding: 10px 40px;
+    color: white;
+    cursor: pointer;
+    margin: 10px auto;
+    height: 47px;
+}
